@@ -18,18 +18,18 @@ To activate the virtual environment for your project, begin by running the comma
 
 ## Install requirementgs
 
-Upon activating the virtual environment, to install the necessary project requirements, simply enter the command `pip install -r requirements.txt` and patiently await the completion.
+Upon activating the virtual environment, to install the necessary project requirements, simply enter the command `pip install -r ./requirements/base.txt` and patiently await the completion.
 
 ## Run server
 
 Before to run sever we have to type two commands. <br>
-- Fist one: `python manage.py makemigrations`, this command is tasked with generating new migrations that reflect the modifications you've applied to your models.
+- Fist one: `python manage.py makemigrations`, this command is tasked with generating new migrations that reflect the modifications you've applied to your models and also create ours table we will need it on the data base.
 - Second one `python manage.py migrate`, this command is in charge of applying and reverting migrations as needed.
 
 These commands will introduce additional tables to our database, enhancing the relationship between Django and MariaDB.
 
 Now the only thing that you have to do it to run the server is type this `python manage.py runserver`
-After that you have to go to this addrees `http://127.0.0.1:8000/categories/` so if everything is correct you will see this:
+After that you have to go to this addrees `http://127.0.0.1:8000/category/` so if everything is correct you will see this:
 ![Django REST framework image](https://imgur.com/1VlORiB.png)
 
 There are two paths that you can visit
