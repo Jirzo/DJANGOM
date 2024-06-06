@@ -34,6 +34,6 @@ After that you have to go to this addrees `http://127.0.0.1:8000/category/` so i
 ![Django REST framework image](https://imgur.com/1VlORiB.png)
 
 There are two paths that you can visit
-- `http://127.0.0.1:8000/admin/` you'll require a username and password. Please utilize the following credentials: `Username: root` and `Password: admin` should those credentials fail, you'll need to create a superuser utilizing the following command: 
+- `http://127.0.0.1:8000/admin/` you'll require a username and password. Please utilize the following credentials: `Username: root` and `Password: admin` should those credentials fail, you'll need to create a superuser utilizing the following command: `python manage.py createsuperuser`
 - `http://127.0.0.1:8000/docs` and this command will provide you with documentation detailing the HTTP request methods available.
 <hr/>
