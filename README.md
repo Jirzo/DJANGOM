@@ -23,8 +23,9 @@ Upon activating the virtual environment, to install the necessary project requir
 ## Run server
 
 Before to run sever we have to type two commands. <br>
-- Fist one: `python manage.py makemigrations`, this command is tasked with generating new migrations that reflect the modifications you've applied to your models and also create ours table we will need it on the data base.
+- Fist one: `python manage.py makemigrations`, this command is tasked with generating new migrations that reflect the modifications you've applied to your models
 - Second one `python manage.py migrate`, this command is in charge of applying and reverting migrations as needed.
+Theses step will create the tables tha Django needs and also create our four table that we will need.
 
 These commands will introduce additional tables to our database, enhancing the relationship between Django and MariaDB.
 
