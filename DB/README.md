@@ -122,9 +122,10 @@ After finishing the MariaDB installation, download and install [HeidiSQL](https:
 
 
 Once you have created the database, on the query tab copy the code from the _DRFDB.sql_ file and paste it into the script file and execute it.
+Make sure that you already follow the steps to run the django server [DJANGO - GETTING STARTED](https://github.com/Jirzo/DJANGOM) , because on that process Django create ours tables so the sql file will only populate the tables.
 If a modal appears, simply press the yes option.
 
-- [MariaDB script](https://github.com/Jirzo/DJANGO-RF/blob/main/DB/DRFDB.sql) - file path
+- [MariaDB script](https://github.com/Jirzo/DJANGOM/blob/main/DB/DJANGOM.sql) - file path
 
 
 If the process was successful you will see a message like this: `Affected rows: 25  Found rows: 0  Warnings: 0  Duration for 32 queries: 0.125 sec.` Lastly, you'll witness the database populating, and upon running the file, you'll have visibility into the tables and be capable of executing queries. </br>
