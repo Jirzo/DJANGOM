@@ -5,7 +5,7 @@ class User(models.Model):
     last_name = models.CharField(max_length=50)
     email = models.CharField(max_length=120)
     psw = models.CharField(max_length=30)
-    user_status = models.IntegerField(blank=True, null=True)
+    user_status = models.BooleanField('Status', default=False)
     created_at = models.DateTimeField('Date creation',auto_now_add=True, null=False)
     updated_at = models.DateTimeField('Date updated', auto_now=True, null=False)
 

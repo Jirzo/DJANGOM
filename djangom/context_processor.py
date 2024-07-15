@@ -2,6 +2,6 @@
 
 def djangom_context(request):
     context = {
-        "my_email": 'alfredo.rivas@accenture.com'
+        "my_email": 'jirzo.nez@gmail.com'
     }
     return context
